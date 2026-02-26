@@ -1,6 +1,98 @@
-/* reset do navegator  */
-*{
+/* Importando uma fonte elegante do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Estilo geral do corpo da página */
+body {
+    /* Sua imagem de fundo */
+    background-image: url(assets/Gemini_Generated_Image_raqf8uraqf8uraqf.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* Configurações de alinhamento e cor (que estavam faltando) */
+    color: #F0E6D2; /* Deixa o texto clarinho */
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza tudo no meio da tela */
+}
+
+/* Estilo do título principal */
+h1 {
+    font-family: 'Cinzel', serif;
+    color: #C8AA6E;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #C8AA6E;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Sombra para o título destacar do fundo */
+}
+
+/* Estilo da caixa que guarda a lista (Fundo semitransparente) */
+ul {
+    list-style-type: none;
+    padding: 30px;
+    max-width: 600px;
+    background-color: rgba(10, 15, 20, 0.85); /* Fundo escuro e um pouco transparente */
+    border: 2px solid #C8AA6E;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(200, 170, 110, 0.2);
+}
+
+/* Estilo de cada item da lista */
+li {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Estilo para as palavras em destaque */
+strong {
+    color: #C8AA6E;
+    font-size: 20px;
+}
+
+/* Estilo do link que envolve o botão */
+a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* Estilo do botão "História" */
+button {
+    background-color: rgba(24, 16, 16, 0.85); /* Fundo um pouco escuro pro botão */
+    color: #C8AA6E;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: 2px solid #C8AA6E;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+/* Efeito quando passa o mouse por cima do botão */
+button:hover {
+    background-color: #c4c3c2;
+    color: #010A13;
+    box-shadow: 0 0 10p
+}
+/* Cria uma caixa com borda dourada e fundo escuro em volta do texto */
+p {
+    border: 2px solid #C8AA6E; /* Cor da borda dourada */
+    padding: 20px; /* Espaço entre o texto e a borda */
+    background-color: rgba(10, 15, 20, 0.85); /* Fundo escuro para dar leitura */
+    border-radius: 8px; /* Deixa as pontas da borda arredondadas */
+    max-width: 800px; /* Limita a largura para não ficar esticado na tela toda */
+}
+/* Estilo do link que envolve o botão */
+a {
+    text-decoration: none;
+    margin-top: 60px; /* Aumentamos de 20px para 60px para afastar bem o botão */
+    color: #C8AA6E;
 }
