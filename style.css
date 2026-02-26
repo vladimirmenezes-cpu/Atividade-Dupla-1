@@ -43,9 +43,15 @@ button{
     border-radius: 25px;
     border: none;
     cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 
     position: absolute;
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+a {
+    color: white;        /* muda a cor */
+    text-decoration: none; /* tira o sublinhado */
 }
