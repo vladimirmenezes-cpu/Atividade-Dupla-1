@@ -14,19 +14,47 @@ body{
     background-image: url(assets/Gemini_Generated_Image_raqf8uraqf8uraqf.png);
 }
 
-h2{
+.main-header{
     text-align: center;
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #c79b3b;
-
-    color: #c89b3c;
-    text-shadow: 
-        -3px -3px 0 black,
-         3px -3px 0 black,
-        -3px  3px 0 black,
-         3px  3px 0 black; 
+    padding-top: 50px;
+    margin-bottom: 20px;
 }
+
+h2 {    
+    font-size: 65px;
+    font-family: Georgia, serif;
+    color:#c89b3c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    text-shadow: 
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black,
+        0px 0px 20px rgba(200, 155, 60, 0.5)
+
+}
+
+h3{
+    font-size: 28px;
+    color: #f0e6d2;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    margin-bottom: 15px;    
+    text-shadow: 1px 1px 4px black;
+}
+
+.subtitle {
+    font-size: 22px; 
+    color: #f0e6d2;  
+    max-width: 800px; 
+    margin: 0 auto;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold; 
+}
+
 
 img{
     display: block;
@@ -35,15 +63,14 @@ img{
     margin: 10px auto;
 }
 
-button{
-    padding: 12px 25px;
-    background-color: #c89b3c;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    border: none;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
+button a{
+    padding: 15px 35px;
+    background: linear-gradient(to bottom, #c89b3c, #785a28);
+    color: #f0e6d2;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #5b4319;
+    transition: all 0.3s ease;
 
     position: absolute;
     bottom: 40px;
@@ -51,7 +78,9 @@ button{
     transform: translateX(-50%);
 }
 
-a {
-    color: white;        /* muda a cor */
-    text-decoration: none; /* tira o sublinhado */
+button:hover{
+    background: #e1b34a;
+    box-shadow: 0 0 20px rgba(200, 155, 60, 0.6);
+    transform: translate(-50%) scale(1.05);
 }
+
